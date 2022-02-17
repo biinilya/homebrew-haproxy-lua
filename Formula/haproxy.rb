@@ -10,7 +10,7 @@ class Haproxy < Formula
     def install
       lua = Formula["lua"]
       args = %W[
-        TARGET=generic
+        TARGET=osx
         USE_KQUEUE=1
         USE_POLL=1
         USE_PCRE=1
